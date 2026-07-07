@@ -9,13 +9,26 @@ The main scripts are:
 	
 	run_mattersim.py
 		requires mattersim 1.2.0 library
+		
 	run_uma.py
 		requires fairchem-core 2.7.1  library
 		requires uma-s-1p1.pt file from https://fair-chem.github.io
+		
 	run_escn.py
         requires fairchem-core 1.10.0  library
         requires escn_l6_m3_lay20_all_md_s2ef.pt file from https://fair-chem.github.io
+        
 	run_m3gnet.py
 
-The requirements.txt file is not present, other requires python libraries cam be inferred.
+	createVASPInputs.py
+	
+A typical workflow:
+	
+	conda activate MLIP_Mattersim
+	run_mattersim.py
+	echo "Mattersim" | python3 createVASPInputs.py
+	
+	<run DFT>
+
+The requirements.txt file is not present, the remaining required python libraries cam be inferred.
 ABCluster (http://zhjun-sci.com/abcluster.html) is required to run the scripts.

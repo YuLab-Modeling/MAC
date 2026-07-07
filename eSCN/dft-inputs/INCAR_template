@@ -1,0 +1,49 @@
+general:
+  SYSTEM = x
+  ISTART =   0     # 0: new, 2: read WC
+  ICHARG =   2     # 0: WC , 1: CHGCAR, 2: new
+  GGA    =   PE    # PE: PBE
+  ISPIN = 1
+
+electronic steps:
+  ENCUT  = 450
+  EDIFF  =   1E-5
+  ISMEAR =   0
+  SIGMA  =   0.03
+  ALGO   =   Fast
+  LREAL  =   Auto
+  NELM   =  50     # 40
+  NELMIN =   5     #  2
+  NELMDL =  -7     # -5
+
+ionic steps:
+  IBRION =   -1
+  EDIFFG =  -0.020 #
+  NSW    =  0    #
+  POTIM  =   0.150 #
+  NFREE  =   2     #
+
+
+parallelization:
+  NCORE   =  4 ;
+
+
+files to write:
+  LWAVE  =   F     # WAVECAR
+  LCHARG =   F     # CHG / CHGCAR
+  LVTOT  =   F     # LOCPOT
+  LELF   =   F     # LELFCAR elec loc func
+  PARCHG =   F     # PARCHG  part charge
+  NWRITE =   0
+
+
+van der Waals:
+  LVDW   =   T
+  VDW_VERSION= 2 ; VDW_RADIUS = 40 ; VDW_SCALING = 0.75
+# Parameters:   
+  VDW_C6 =
+  VDW_R0 =
+ # Dipole Correction
+  LDIPOL = T
+  IDIPOL = 3
+
