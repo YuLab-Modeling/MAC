@@ -9,8 +9,8 @@ Using conda environments is recommended. The main command files are:
 		requires ... library
 		requires ...pt file from <link>
 	run_escn.py
-                requires ... library
-                requires ...pt file from <link>
+        requires ... library
+        requires ...pt file from <link>
 	run_m3gnet.py
 
 The requirements.txt file is not present, other requires python libraries cam be inferred.
