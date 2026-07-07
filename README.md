@@ -3,7 +3,7 @@ Benchmarking Universal Machine-Learning Interatomic Potentials for Accelerated A
 
 { DOI placeholder }
 
-This repository contains the code that we used to run the MLIP-based Adsorption Calculation (MAC) workflow. It is uploaded to be a reference for your implementation of the MAC workflow. We recommend using separate conda environments for different MLIPs. 
+This repository contains the code that we used to run the MLIP-based Adsorption Calculation (MAC) workflow. It is uploaded to be used as a reference for your implementation of the MAC workflow. We recommend using separate conda environments for different MLIPs. 
 
 The main scripts are:
 	
@@ -31,4 +31,5 @@ A typical workflow:
 	<run DFT>
 
 The requirements.txt file is not present, the remaining required python libraries cam be inferred.
+
 ABCluster (http://zhjun-sci.com/abcluster.html) is required to run the scripts.
