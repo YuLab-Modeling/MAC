@@ -24,7 +24,7 @@ The main scripts are:
 	
 A typical workflow:
 	
-	conda activate MLIP_Mattersim
+	python3 conda activate MLIP_Mattersim
 	run_mattersim.py
 	echo "Mattersim" | python3 createVASPInputs.py
 	
