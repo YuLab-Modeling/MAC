@@ -11,7 +11,7 @@ The main scripts are:
 		requires mattersim 1.2.0 library
 		
 	run_uma.py
-		requires <mark>fairchem-core 2.7.1<\mark>  library
+		requires `fairchem-core 2.7.1`  library
 		requires uma-s-1p1.pt file from https://fair-chem.github.io
 		
 	run_escn.py
