@@ -14,3 +14,4 @@ Using conda environments is recommended. The main command files are:
 	run_m3gnet.py
 
 The requirements.txt file is not present, other requires python libraries cam be inferred.
+ABCluster () is required to run the scripts.
